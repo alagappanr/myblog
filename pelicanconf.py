@@ -4,9 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Alagappan'
 SITENAME = u"Alagappan's Weblog"
-SITEURL = ''
+SITEURL = 'http://alagappan.co.in'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Asia/Kolkata'
 
 DEFAULT_LANG = u'en'
 
@@ -19,7 +19,7 @@ TRANSLATION_FEED_ATOM = None
 LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
           ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+          )
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -27,5 +27,11 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 3
 
+TYPOGRIFY = True
+
+FEED_DOMAIN = SITEURL
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+THEME = "pelican-svbtle"
+AUTHOR_BIO = "Software Developer-Traveller-Explorer-Runner-Trekker-Avid Reader-NIT Trichy Alum-Weekend Foodie-Investing time/money in dreams, experiences and self."
