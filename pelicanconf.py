@@ -16,13 +16,12 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
+LINKS =  (('_alagappan', 'http://twitter.com/_alagappan'),
+          ('About', 'http://about.me/alagappanr'),
           )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
+SOCIAL = (('Facebook', 'http://facebook.com/alagappan.r'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 3
@@ -33,5 +32,7 @@ FEED_DOMAIN = SITEURL
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+OUTPUT_PATH = '../../myblog/'
+
 THEME = "pelican-svbtle"
-AUTHOR_BIO = "Software Developer-Traveller-Explorer-Runner-Trekker-Avid Reader-NIT Trichy Alum-Weekend Foodie-Investing time/money in dreams, experiences and self."
+AUTHOR_BIO = "Software Developer, Traveller, Explorer, Runner, Trekker, Avid Reader, Amateur Photographer, NIT Trichy Alum, Weekend Foodie, Investing time/money in dreams, experiences and self."
