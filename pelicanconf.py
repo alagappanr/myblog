@@ -24,7 +24,7 @@ LINKS =  (('_alagappan', 'http://twitter.com/_alagappan'),
 SOCIAL = (('Facebook', 'http://facebook.com/alagappan.r'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 3
+DEFAULT_PAGINATION = 5
 
 TYPOGRIFY = True
 
